@@ -93,19 +93,41 @@ caption{
 	text-align: left;
 	outline: none;
 	font-size: 15px;
-  }
+}
   
-  .active, .collapsible:hover {
+.active, .collapsible:hover {
 	background-color: #555;
-  }
+}
   
-  .content {
+.content {
 	padding: 0 18px;
 	display: none;
 	overflow: hidden;
 	background-color: #f1f1f1;
-  }
+}
 footer{
 	color: #9180ad;
 	padding: 20px;
+}
+
+@media screen and (max-width: 600px){
+	header h1{
+		font-size: 30px;
+	}
+	header p{
+		font-size: 15px;
+	}
+	.logo{
+		margin-top: 20px;
+		height: 100%;
+		width: 300px;
+	}
+	.pokemon .img-container {
+		border-radius: 50%;
+		width: 320px;
+		height: 330px;
+		text-align: center;
+		display: block;
+		margin: 20px auto;
+	}
 }
